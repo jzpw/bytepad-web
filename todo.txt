@@ -1,0 +1,14 @@
+Always a default collection for a user
+Default collection always at the top
+Upload button does not work without items selected
+Remove icon for collection (bin)
+Warning when deleting an item that isn't yours
+Case sensitivity - search / share
+Tag corner on wide view
+Strikeout on collection view
+Edit button on collection view
+Refresh page when clicking icon
+Fill inbox
+Show year when not current
+Time dropdown
+Show time properly on left in correct font (Geist)

@@ -1,0 +1,16 @@
+{
+    "name": "bytepad",
+    "short_name": "Bytepad",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#060606",
+    "theme_color": "#060606",
+    "icons": [
+      {
+        "src": "/icons/ico-512.jpg",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

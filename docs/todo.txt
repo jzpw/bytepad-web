@@ -1,0 +1,43 @@
+    PRIORITY:
+
+Can't delete all collections
+
+Recovered item resurrects collection if the collection has also been deleted.
+
+Change default collection when default is deleted
+
+Reassign items to default collection when a collection is deleted
+
+Unimplemented:
+    Inbox
+
+    Calendar item click
+    ---Quickview with date
+        Clickable calendar button
+
+    -User menu
+    
+    
+
+    Item tags for files
+
+    /*
+    Customise home screen
+
+    Sharing:
+        clickable links
+        make item public
+    */
+
+    ---Today items
+    ---Dropdown for next 3 days
+    ---Items today counter in navbar
+
+    -Multiselect
+
+    Editing locks
+
+    Writing mode - Maximize textbox
+
+    Can't remove last Collection
+    Collection button click on quickview
