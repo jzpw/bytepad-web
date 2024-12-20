@@ -159,7 +159,7 @@
         max-height: 300px;
         display:grid;
         margin: 0px 20px;
-        background-color: #141414;
+        background-color: #202020;
     }
 
     .item-simple {
@@ -168,7 +168,7 @@
         padding: 13px 12px;
         font-family: 'Poppins';
         color: #ffffff;
-        font-size: 14.5px;
+        font-size: 15px;
         cursor: pointer;
         transition: background-color 0.5s;
         max-height: 100px;
@@ -176,11 +176,11 @@
     }
 
     .item-simple:not(:last-child){
-        border-bottom: 1px solid #252525;
+        border-bottom: 1px solid #323232;
     }
 
     .item-simple:active{
-        background: linear-gradient(90deg, rgba(26,26,26,1) 0%, rgb(19, 22, 24) 33%, rgb(19, 22, 24) 66%, rgba(26,26,26,1) 100%);
+        /*background: linear-gradient(90deg, rgba(26,26,26,1) 0%, rgb(19, 22, 24) 33%, rgb(19, 22, 24) 66%, rgba(26,26,26,1) 100%);*/
     }
 
     .item-simple .icon {

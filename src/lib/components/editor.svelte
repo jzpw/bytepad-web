@@ -481,7 +481,7 @@
     left: 0px;
     color: var(--editor-text);
     width: 100%;
-    z-index: 999;
+    z-index: 1050;
     height: 100%;
     position: fixed;
     overflow-y: scroll;

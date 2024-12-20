@@ -73,7 +73,7 @@
     text-align: center;
     font-family: Poppins,Arial,Helvetica,sans-serif;
     font-size: 12px !important;
-    background-color: #181818;
+    background-color: #252525;
     color: #ffffff;
     height: 31px;
     font-weight: 400;

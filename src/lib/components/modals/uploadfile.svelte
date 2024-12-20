@@ -30,13 +30,23 @@
 
     let fileinput: any;
 
+    let uploadEnabled: boolean = false;
+
     $: if (files) {
+        uploadEnabled = true;
+
         for (const file of files) {
             console.log(`${file.name}: ${file.size} bytes`);
         }
-    }
+        }
+        else {
+            uploadEnabled = false;
+        }
 
     function upload(){
+        if(uploading_now || !uploadEnabled) 
+            return;
+
         console.log(item_id_);
         if(fileinput.files.length == 0){
             fileinput.files = null;
@@ -85,6 +95,7 @@
     function reset(){
         progress = 0;
         fileinput.value = null;
+        files = null;
         visible = false;
     }
 
@@ -116,7 +127,7 @@
             </div>
             <div style="" class="small-tag" id="upload-percent">{current_progress}</div>
 
-        <a on:click={upload} class="dialog-btn" class:disabled={uploading_now} style="margin-bottom:10px;">
+        <a on:click={upload} class="dialog-btn" class:disabled={uploading_now || !uploadEnabled} style="margin-bottom:10px;">
                 {uploading_now ? 'Uploading...' : 'Upload'}
                 <i class="material-symbols-outlined" style="
                     top: 5px;

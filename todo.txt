@@ -1,14 +1,33 @@
 Always a default collection for a user
-Default collection always at the top
-Upload button does not work without items selected
+
 Remove icon for collection (bin)
+
 Warning when deleting an item that isn't yours
+
 Case sensitivity - search / share
+
 Tag corner on wide view
+
 Strikeout on collection view
+
 Edit button on collection view
+
 Refresh page when clicking icon
+
 Fill inbox
+
 Show year when not current
+
 Time dropdown
+
 Show time properly on left in correct font (Geist)
+
+Kick user out when they load the user page with an invalid session token.
+
+Modify login page so username and password show separately
+
+Use exponential backoff with failed logins from an IP
+
+Lock user if more than 10 attempts are made to log in
+
+Archive button in quick view

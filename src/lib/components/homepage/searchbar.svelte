@@ -99,6 +99,8 @@
 
 </script>
 
+<div class="displace"></div>
+
 <div class="search-bar" style="">
     <table style="" class="search-table">
         <tbody>
@@ -137,6 +139,10 @@
 </div>
 
 <style>
+    .displace{
+        height: 35px;
+    }
+
     .more{
         font-size: 20px;
         color: #e4e4e4;
@@ -210,7 +216,6 @@
     width: -webkit-fill-available;
     margin: 22px 20px 20px 20px;
     border-radius: 13px;
-    border: 1px solid #282828;
     position: relative;
     background-color: #000000;
     }

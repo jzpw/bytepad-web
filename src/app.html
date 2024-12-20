@@ -5,8 +5,15 @@
 			Bytepad
 		</title>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+		<meta charset="utf-8" />  
+		<meta name="apple-mobile-web-app-capable" content="yes"></meta>
+		<meta name="mobile-web-app-capable" content="yes"></meta>
+		<meta
+			name="apple-mobile-web-app-status-bar-style"
+			content="black-translucent"
+		/>
+		<meta name="theme-color" content="#141414" />
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<link rel="manifest" href="manifest.json" />
 		<!--
@@ -23,7 +30,10 @@
 
 <style>
 
-	
+@media screen and (display-mode: standalone) {
+	/**/
+}
+
 html {
   scrollbar-width: none; /* For Firefox */
   -ms-overflow-style: none; /* For Internet Explorer 10+ */
@@ -125,12 +135,12 @@ html::-webkit-scrollbar {
 	}
 
 	body{
-		margin: auto;
 		touch-action: pan-y;
-		background: rgb(11,11,11);
+		background: rgb(20, 20, 20);
 		/*
 		background: linear-gradient(190deg, rgb(30, 43, 44) 0%,rgba(11,11,11,1) 140px);
 		*/
 		background-size: 100% 300px no-repeat;
 	}
+
 </style>

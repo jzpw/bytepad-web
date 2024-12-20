@@ -21,9 +21,10 @@
 
 <div id="" class="item-group">
     <div class="calendar-title">
-        {display_date}
+        <span>{display_date}</span>
     </div>
 
+    {#if false}
     <div class="today-items">
         <div class="today-title">TODAY</div>
         {#each tdy_items as {id, title, due, time}}
@@ -49,6 +50,7 @@
             <span class="material-symbols-outlined">{!expanded ? 'keyboard_arrow_down' : 'keyboard_arrow_up'}</span>
         </div>
     </div>
+    {/if}
 </div>
 
 <style>
@@ -116,7 +118,6 @@
     }
 
     .item-group{
-        background-color: #151515;
         border-radius: 15px;
         margin: 20px 20px;
         position: relative;
@@ -127,7 +128,12 @@
         font-size: 18px;
         font-family: 'Poppins';
         text-align: center;
-        color:#c9ffde;
+        color:#e5e5e5;
+  }
+
+    .calendar-title span{
+        box-shadow: inset 0 -10px #192532;
+  
     }
 
     #today-items{

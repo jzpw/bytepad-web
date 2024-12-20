@@ -9,7 +9,7 @@
         console.log("hidden");
 
         cover_element.style.opacity = 0;
-        setTimeout(()=>{visible = false;}, 500);
+        setTimeout(()=>{visible = false;}, 1000);
     }
 
 
@@ -31,9 +31,9 @@
     .cover{
         top: 0;
         left: 0;
-        z-index: 1000;
+        z-index: 1050;
         position: fixed;
-        background-color: #0a0a0a;
+        background-color: #141414;
         width: 100%;
         height: 100%;
         transition: opacity 0.5s;

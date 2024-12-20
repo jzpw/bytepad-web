@@ -12,7 +12,8 @@ function showMenu(){
 
 <Usermenu bind:this={usermenu}/>
 
-<div>
+<div class="hidden-bar"></div>
+<div class="container">
 <table>
     <tr>
         <td>
@@ -30,13 +31,34 @@ function showMenu(){
 
 <style>
 
+.hidden-bar{
+    z-index: 1010;
+    display: block;
+    left: 0px;
+    height: 160px;
+    top: -100px;
+    backdrop-filter: blur(12px);
+    position: fixed;
+    width: 100%;
+    background-color: rgba(20, 20, 20, 0.571);
+}
+
+.container {
+    z-index: 1015;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    padding: 0;
+}
+
 .arrow{
     position: relative;
     top: 7px;
 }
 
 table{
-    margin-top: 15px;
+    margin-top: 10px;
     width: 100%;
 }
 
